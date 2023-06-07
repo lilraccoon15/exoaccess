@@ -1,0 +1,98 @@
+body {
+    background-image:url("../img/congruent_pentagon.png");
+}
+
+a {
+    color:black;
+}
+
+ul {
+    display:flex;
+    flex-wrap: nowrap;
+    justify-content: center;
+    padding:0px;
+}
+
+ul :nth-child(2) {
+    margin-left:10px;
+}
+
+ul :nth-child(3) {
+    margin-left:10px;
+}
+
+li {
+    list-style-type: none;
+}
+
+.container {
+    margin-right:10%;
+    margin-left:10%;
+}
+
+.cards {
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.card {
+    background-color:white;
+    margin-bottom:15px;
+}
+
+.card img {
+    width:100%;
+}
+
+.cardContent {
+    padding-left:5%;
+    padding-right:5%;
+}
+
+.fa-brands {
+    font-size:20px;
+}
+
+footer {
+    background-color:#203D22;
+    color:white;
+    padding:5%;
+    display:flex;
+    flex-wrap: wrap;
+}
+
+.join, .contact {
+    width:100%;
+}
+
+@media screen and (min-width:600px) {
+    .container {
+        margin-right:5%;
+        margin-left:5%;
+    }
+
+    .card {
+        /* position: relative; */
+        width:45%;
+        margin-right:15px;
+    }
+
+    .join, .contact {
+        width:50%;
+    }
+}
+
+@media screen and (min-width:900px) {
+    .card {
+        /* position: relative; */
+        width:30%;
+    }
+}
+
+@media screen and (min-width:1200px) {
+    .card {
+        /* position: relative; */
+        width:23%;
+    }
+}
